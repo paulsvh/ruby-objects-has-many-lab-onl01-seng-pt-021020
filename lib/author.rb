@@ -5,10 +5,6 @@ class Author
     @name = name
   end
 
-  def self.all
-    @@all
-  end
-
   def add_post(title)
     title.author = self
   end
